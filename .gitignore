@@ -7,6 +7,12 @@
 *.o
 *.obj
 
+#somestuffs
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+
 # Precompiled Headers
 *.gch
 *.pch
