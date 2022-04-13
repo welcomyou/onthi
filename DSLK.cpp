@@ -91,6 +91,7 @@ void printlist(list* ls)
 
 int main()
 {
+    //Tạo thử list1
     list* ls = (list*)malloc(sizeof(list));
     ls->pHead = ls->pTail = NULL;
     addtail(ls, 1);
@@ -108,6 +109,7 @@ int main()
         printlist(ls);
     }
 
+    //Tạo thử list2
     list* ls2 = (list*)malloc(sizeof(list));
     ls2->pHead = ls2->pTail = NULL;
     addhead(ls2, 1);
